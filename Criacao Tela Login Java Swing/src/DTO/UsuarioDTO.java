@@ -10,19 +10,20 @@ package DTO;
  * @author aluno.saolucas
  */
 public class UsuarioDTO {
+
     private String usuario;
     private String senha;
-    
-    public void UsuarioDTO (String usuario, String senha){
+
+    public UsuarioDTO(String usuario, String senha) {
         this.usuario = usuario;
         this.senha = senha;
-    } 
-    
-    public String getUsuario(){
+    }
+
+    public String getUsuario() {
         return usuario;
     }
-    
-    public String getSenha(){
+
+    public String getSenha() {
         return senha;
     }
 }

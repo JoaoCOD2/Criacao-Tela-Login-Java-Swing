@@ -12,11 +12,11 @@ import DTO.UsuarioDTO;
  * @author aluno.saolucas
  */
 public class UsuarioDAO {
-    public void salvarUsuario(UsuarioDTO usuarioDTO) {
-        // Captura o usuario do DTO
+
+    public boolean autenticarUsuario(UsuarioDTO usuarioDTO) {
         String usuario = usuarioDTO.getUsuario();
-        
-        //Captura a senha do usuario;
         String senha = usuarioDTO.getSenha();
+
+        return usuario.equals("admin") && senha.equals("1234");
     }
 }
