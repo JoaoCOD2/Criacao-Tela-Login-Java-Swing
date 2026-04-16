@@ -54,7 +54,7 @@ public class TelaLogin extends javax.swing.JFrame {
         });
 
         lblLogin.setBackground(java.awt.Color.darkGray);
-        lblLogin.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblLogin.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
         lblLogin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblLogin.setText("LOGIN");
         lblLogin.setOpaque(true);
